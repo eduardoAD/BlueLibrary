@@ -90,15 +90,12 @@
 		450EECC517A9B03A00957F62 /* BlueLibrary */ = {
 			isa = PBXGroup;
 			children = (
+				E4755B351ABB4E4700DA3E64 /* Model */,
+				E4755B341ABB4E4200DA3E64 /* View */,
+				E4755B321ABB4E2B00DA3E64 /* Controller */,
 				450EECE217A9B04400957F62 /* API */,
-				450EECD717A9B03A00957F62 /* ViewController.h */,
-				450EECD817A9B03A00957F62 /* ViewController.m */,
 				450EECCE17A9B03A00957F62 /* AppDelegate.h */,
 				450EECCF17A9B03A00957F62 /* AppDelegate.m */,
-				E49F54091ABA055600278CA5 /* Album.h */,
-				E49F540A1ABA055600278CA5 /* Album.m */,
-				E49F540C1ABA08EA00278CA5 /* AlbumView.h */,
-				E49F540D1ABA08EA00278CA5 /* AlbumView.m */,
 				450EECC617A9B03A00957F62 /* Supporting Files */,
 			);
 			path = BlueLibrary;
@@ -125,6 +122,33 @@
 				450EECE417A9B05E00957F62 /* HTTPClient.m */,
 			);
 			name = API;
+			sourceTree = "<group>";
+		};
+		E4755B321ABB4E2B00DA3E64 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				450EECD717A9B03A00957F62 /* ViewController.h */,
+				450EECD817A9B03A00957F62 /* ViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		E4755B341ABB4E4200DA3E64 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E49F540C1ABA08EA00278CA5 /* AlbumView.h */,
+				E49F540D1ABA08EA00278CA5 /* AlbumView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		E4755B351ABB4E4700DA3E64 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E49F54091ABA055600278CA5 /* Album.h */,
+				E49F540A1ABA055600278CA5 /* Album.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
