@@ -20,6 +20,7 @@
 		450EECE517A9B05E00957F62 /* HTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 450EECE417A9B05E00957F62 /* HTTPClient.m */; };
 		E4755B381ABB4FEC00DA3E64 /* LibraryAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = E4755B371ABB4FEC00DA3E64 /* LibraryAPI.m */; };
 		E4755B3B1ABB515D00DA3E64 /* PersistencyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E4755B3A1ABB515D00DA3E64 /* PersistencyManager.m */; };
+		E4755B411ABB6D0D00DA3E64 /* Album+TableRepresentation.m in Sources */ = {isa = PBXBuildFile; fileRef = E4755B401ABB6D0D00DA3E64 /* Album+TableRepresentation.m */; };
 		E49F540B1ABA055600278CA5 /* Album.m in Sources */ = {isa = PBXBuildFile; fileRef = E49F540A1ABA055600278CA5 /* Album.m */; };
 		E49F540E1ABA08EA00278CA5 /* AlbumView.m in Sources */ = {isa = PBXBuildFile; fileRef = E49F540D1ABA08EA00278CA5 /* AlbumView.m */; };
 /* End PBXBuildFile section */
@@ -46,6 +47,8 @@
 		E4755B371ABB4FEC00DA3E64 /* LibraryAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LibraryAPI.m; sourceTree = "<group>"; };
 		E4755B391ABB515D00DA3E64 /* PersistencyManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersistencyManager.h; sourceTree = "<group>"; };
 		E4755B3A1ABB515D00DA3E64 /* PersistencyManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersistencyManager.m; sourceTree = "<group>"; };
+		E4755B3F1ABB6D0D00DA3E64 /* Album+TableRepresentation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Album+TableRepresentation.h"; sourceTree = "<group>"; };
+		E4755B401ABB6D0D00DA3E64 /* Album+TableRepresentation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Album+TableRepresentation.m"; sourceTree = "<group>"; };
 		E49F54091ABA055600278CA5 /* Album.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Album.h; sourceTree = "<group>"; };
 		E49F540A1ABA055600278CA5 /* Album.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Album.m; sourceTree = "<group>"; };
 		E49F540C1ABA08EA00278CA5 /* AlbumView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumView.h; sourceTree = "<group>"; };
@@ -128,6 +131,8 @@
 				450EECE417A9B05E00957F62 /* HTTPClient.m */,
 				E4755B361ABB4FEC00DA3E64 /* LibraryAPI.h */,
 				E4755B371ABB4FEC00DA3E64 /* LibraryAPI.m */,
+				E4755B3F1ABB6D0D00DA3E64 /* Album+TableRepresentation.h */,
+				E4755B401ABB6D0D00DA3E64 /* Album+TableRepresentation.m */,
 				E4755B391ABB515D00DA3E64 /* PersistencyManager.h */,
 				E4755B3A1ABB515D00DA3E64 /* PersistencyManager.m */,
 			);
@@ -228,6 +233,7 @@
 			files = (
 				450EECCC17A9B03A00957F62 /* main.m in Sources */,
 				450EECD017A9B03A00957F62 /* AppDelegate.m in Sources */,
+				E4755B411ABB6D0D00DA3E64 /* Album+TableRepresentation.m in Sources */,
 				E49F540E1ABA08EA00278CA5 /* AlbumView.m in Sources */,
 				E4755B3B1ABB515D00DA3E64 /* PersistencyManager.m in Sources */,
 				E4755B381ABB4FEC00DA3E64 /* LibraryAPI.m in Sources */,
