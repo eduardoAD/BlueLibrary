@@ -72,7 +72,7 @@
 
     // if an initial view is defined, center the scroller on it
     if ([self.delegate respondsToSelector:@selector(initialViewIndexForHorizontalScroller:)]) {
-        int initialView = [self.delegate initialViewIndexForHorizontalScroller:self];
+        int initialView = (int)[self.delegate initialViewIndexForHorizontalScroller:self];
         [scroller setContentOffset:CGPointMake(initialView*(VIEW_DIMENSIONS+(2*VIEW_PADDING)), 0) animated:YES];
     }
 }
