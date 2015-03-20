@@ -85,6 +85,10 @@
     }
 }
 
+- (void)saveAlbums{
+    [persistencyManager saveAlbums];
+}
+
 - (void)dealloc{
     [[NSNotificationCenter defaultCenter] removeObserver:self];
 }

@@ -12,7 +12,7 @@
 
 - (NSDictionary*)tr_tableRepresentation{
     return @{@"titles":@[@"Artist", @"Album", @"Genre", @"Year"],
-             @"values":@[self.artist, self.tittle, self.genre, self.year]};
+             @"values":@[self.artist, self.title, self.genre, self.year]};
 }
 
 @end
