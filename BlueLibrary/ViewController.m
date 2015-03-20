@@ -92,6 +92,12 @@
     [self reloadScroller];
 
     [toolbar.items[0] setEnabled:YES];
+    if (allAlbums.count == 0){
+        [toolbar.items[2] setEnabled:NO];
+    }
+    else{
+        [toolbar.items[2] setEnabled:YES];
+    }
 }
 
 - (void)undoAction{
@@ -103,6 +109,7 @@
     if (undoStack.count == 0) {
         [toolbar.items[0] setEnabled:NO];
     }
+    [toolbar.items[2] setEnabled:YES];
 }
 
 - (void)showDataForAlbumAtIndex:(int)albumIndex{
