@@ -130,10 +130,10 @@
 		450EECE217A9B04400957F62 /* API */ = {
 			isa = PBXGroup;
 			children = (
-				450EECE317A9B05E00957F62 /* HTTPClient.h */,
-				450EECE417A9B05E00957F62 /* HTTPClient.m */,
 				E4755B361ABB4FEC00DA3E64 /* LibraryAPI.h */,
 				E4755B371ABB4FEC00DA3E64 /* LibraryAPI.m */,
+				450EECE317A9B05E00957F62 /* HTTPClient.h */,
+				450EECE417A9B05E00957F62 /* HTTPClient.m */,
 				E4755B3F1ABB6D0D00DA3E64 /* Album+TableRepresentation.h */,
 				E4755B401ABB6D0D00DA3E64 /* Album+TableRepresentation.m */,
 				E4755B391ABB515D00DA3E64 /* PersistencyManager.h */,

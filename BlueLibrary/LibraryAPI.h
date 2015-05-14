@@ -8,6 +8,9 @@
 
 #import <Foundation/Foundation.h>
 #import "Album.h"
+#import "Album+TableRepresentation.h"
+#import "AlbumView.h"
+#import "HorizontalScroller.h"
 
 @interface LibraryAPI : NSObject
 

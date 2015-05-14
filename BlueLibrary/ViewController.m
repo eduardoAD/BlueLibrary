@@ -8,9 +8,6 @@
 
 #import "ViewController.h"
 #import "LibraryAPI.h"
-#import "Album+TableRepresentation.h"
-#import "HorizontalScroller.h"
-#import "AlbumView.h"
 
 @interface ViewController () <UITableViewDataSource, UITableViewDelegate, HorizontalScrollerDelegate> {
     UITableView *dataTable;
